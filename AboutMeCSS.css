@@ -1,0 +1,204 @@
+html {
+    font-family:Catamaran;
+    color:#2F2F31;
+}
+
+body {
+    margin: 0;
+}
+
+
+.header {
+    padding: 20px;
+    background-color: #99FF99;
+    height: 500px;
+    font-weight:700;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    background: rgb(174,238,217);
+    background: radial-gradient(circle, rgba(174,238,217,1) 41%, rgba(9,185,180,1) 78%);
+   
+}
+.header-text {
+     font-size: 15px;
+}
+.epvp {
+    height:550px;
+    width:600px;
+    margin-right:-300px;
+    margin-top: -420px;
+}
+.epvp-position {
+    color: white;
+}
+.title2{
+      text-align: left;
+    color: #2F2F31;
+    margin-left: 1200px;
+    width:500px;
+    font-size:30px;
+}
+.undertitle2{
+     
+font-size: 15px;
+    text-align: left;
+    color: #2F2F31;
+    margin-left: 1200px;
+    width:500px;
+}
+.title {
+    font-weight: bold;
+    text-align: left;
+    font-size: 30px;
+    color: #2F2F31;
+    margin-left: 400px;
+
+}
+.undertitle {
+    font-size: 15px;
+    text-align: left;
+    color: #2F2F31;
+    margin-left: 400px;
+}
+.big {
+    font-size: 70px;
+}
+
+.small {
+    font-size: 50px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    
+}
+.AboutMe {
+ height:1400px;
+}
+.text {
+    text-align: center;
+    color: black;
+    font-size: 80px;
+}
+.undertext {
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    margin-top: -30px;
+}
+.underundertext {
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    margin-top: -30px;
+}
+.info {
+    text-align: left;
+    margin-left:100px;
+    color: black;
+    font-size:20px;
+}
+nav{
+    color: #2F2F31;
+    background: #2F2F31;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    
+}
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold; 
+    margin-left: 250px;
+    
+}
+nav ul{
+    color:#A1A1A1;
+    float: right;
+    margin-right: 250px;
+    
+    
+}
+nav ul li {
+    color: #A1A1A1;
+    display:inline-block;
+    line-height: 80px;
+    margin:0 0px;
+    
+}
+nav ul li a {
+    color:#A1A1A1;
+    font-weight: bold;
+    font-family: Catamaran;
+    padding: 0px 3px;
+    border-radius: 3px;
+    
+}
+a.active,a:hover{
+    color: white;
+}
+.checkbtn{
+    font-size: 30px;
+    color: #A1A1A1;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor:pointer;
+    display: none;
+}
+#check {
+    display: none;
+    
+}
+
+@media (max-width: 1200px) {
+    label.logo {
+        font-size: 30px;
+        padding-left: 25px;
+        text-align: left;
+        margin-left: 10px;
+    }
+    .big{
+        font-size = 30px;
+    }
+    .small{
+        font-size = 15px;
+    }
+    .checkbtn {
+        display:block;
+    }
+    ul {
+        position:fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2F2F31;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    a:hover,a.active{
+        background:none;
+        color: white;
+    }
+    #check:checked ~ ul{
+       left:0; 
+    }
+
+    
+}
