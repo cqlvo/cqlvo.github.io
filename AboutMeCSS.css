@@ -16,8 +16,8 @@ body {
     color: white;
     text-align: center;
     font-size: 10px;
-    background: rgb(174,238,217);
-    background: radial-gradient(circle, rgba(174,238,217,1) 41%, rgba(9,185,180,1) 78%);
+    background: rgb(238,174,174);
+    background: radial-gradient(circle, rgba(238,174,174,0.9948354341736695) 0%, rgba(185,9,9,1) 100%);
    
 }
 .header-text {
